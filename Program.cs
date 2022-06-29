@@ -41,4 +41,5 @@ Console.WriteLine ("Введите число");
         {
                 Console.WriteLine($"{counter} -> {counter*counter*counter}");
                 counter ++;
+                if (counter > N) break;
         }
